@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente de Busca - Inteligência Artificial V6S</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Assistente de Busca - Inteligência Artificial V6</h1>
+        </header>
+
+        <form method="post">
+            <label for="modulo">Escolha um módulo:</label>
+            <select id="modulo" name="modulo" required>
+                <option value="" disabled selected>Selecione um módulo</option>
+                {% for modulo in modulos %}
+                    <option value="{{ modulo }}" {% if modulo == modulo_selecionado %}selected{% endif %}>{{ modulo }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="pergunta">Digite sua pergunta:</label>
+            <input type="text" id="pergunta" name="pergunta" placeholder="Digite a pergunta" required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        {% if resposta_natural %}
+        <div id="resultados">
+            <h2>Resultado</h2>
+            <div class="resultado">
+                <h3>Pergunta:</h3>
+                <p>{{ request.form['pergunta'] }}</p>
+            </div>
+            <div class="resultado">
+                <h3>Resposta:</h3>
+                <p>{{ resposta_natural }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
