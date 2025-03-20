@@ -89,9 +89,13 @@ E muito mais...
 ## Atualizações Futuras
 
 📂 Exportação para XLSX: Permitir a geração de arquivos para grandes volumes de dados, reduzindo o consumo de tokens.
+
 🔗 Integração com Fluig: Facilitar o uso dentro do ambiente corporativo.
+
 📊 Consultas Otimizadas: Melhorar a busca em tabelas agregadas para evitar consumo excessivo de tokens.
+
 🖥 Aumentar alcance expandindo mais tabelas.
+
 🖥 Servidor para DeepSeek (Em análise): Possível customização para aprimorar a ferramenta.
 
 ## Contribuição
