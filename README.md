@@ -75,7 +75,16 @@ Cada módulo contém informações detalhadas sobre os campos e outros dados rel
 
 ## Exemplos de USO
 
-IMAGENS
+![image](https://github.com/user-attachments/assets/0951b095-9d93-4deb-a892-81cf1dd79a4e)
+![image](https://github.com/user-attachments/assets/977b44c4-2bde-42e3-8923-1c7d66290181)
+
+![image](https://github.com/user-attachments/assets/da71b852-f48e-4aae-b664-c66c19fcc949)
+![image](https://github.com/user-attachments/assets/d32bdfba-1690-4d85-a606-4d4c4db25f06)
+
+![image](https://github.com/user-attachments/assets/cdd4558f-3daa-4a91-b963-9e225de29364)
+![image](https://github.com/user-attachments/assets/357cd6d6-5a7a-4e97-ac11-4f7ed36582c9)
+
+E muito mais...
 
 ## Atualizações Futuras
 
