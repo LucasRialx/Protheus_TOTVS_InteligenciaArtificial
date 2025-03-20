@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# Projeto desenvolvido por Lucas Rial
+# Copyright (c) 2025 Lucas Rial. Todos os direitos reservados.
+
 from flask import Flask, render_template, request
 import openai
 import pyodbc
