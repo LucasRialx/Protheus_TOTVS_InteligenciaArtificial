@@ -13,8 +13,8 @@ Este projeto integra o Flask com a API da OpenAI e o banco de dados Protheus, pe
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/LucasRialx/Protheus_TOTVS_InteligenciaArtificial
+cd Protheus_TOTVS_InteligenciaArtificial
 ```
 
 ### 2. Criar um Ambiente Virtual (Opcional)
@@ -38,17 +38,24 @@ DB_CONNECTION_STRING = "SUA CONEXAO COM BANCO AQUI"
 
 ### 5. Executar o Servidor
 ```bash
-python app.py
+python AssistenteBuscaV6.py
 ```
 O servidor rodará em `http://127.0.0.1:5000/`
 
 ## Estrutura do Projeto
 ```
-/
-|-- app.py (Arquivo principal)
-|-- templates/ (Templates HTML, se aplicável)
-|-- static/ (Arquivos estáticos, se aplicável)
-|-- requirements.txt (Dependências do projeto)
+IA_PROTHEUS
+│
+├── static
+│   ├── css
+│        ├── Styles.css
+|
+├── templates
+│   ├── indexV3.HTML
+│
+├── AssistenteBuscaV6.py
+
+
 ```
 
 ## Módulos e Tabelas do Protheus
