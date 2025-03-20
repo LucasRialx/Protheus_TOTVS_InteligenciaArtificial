@@ -98,6 +98,9 @@ E muito mais...
 
 🖥 Servidor para DeepSeek (Em análise): Possível customização para aprimorar a ferramenta.
 
+## Aviso de Direitos Autorais
+Este projeto foi desenvolvido por **Lucas Rial**. O código é de propriedade exclusiva de Lucas Rial e está licenciado sob a **Licença MIT**. A reutilização do código é permitida, desde que a autoria seja devidamente reconhecida. Se você utilizar ou modificar este código, deve incluir uma referência a **Lucas Rial** em qualquer distribuição ou derivação.
+
 ## Contribuição
 Sinta-se à vontade para abrir issues e pull requests para melhorias.
 
