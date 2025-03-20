@@ -102,4 +102,4 @@ E muito mais...
 Sinta-se à vontade para abrir issues e pull requests para melhorias.
 
 ## Licença
-Este projeto está sob a licença MIT [LICENSE].
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
